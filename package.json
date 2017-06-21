@@ -1,0 +1,34 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "0.0.31",
+    "jest-expo": "~1.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "expo": "^17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-background-geolocation": "^2.8.2",
+    "react-native-heading": "^1.1.1",
+    "react-native-image-rotate": "^2.0.0",
+    "react-native-simple-compass": "0.0.4",
+    "react-native-timer": "^1.3.1",
+    "react-native-timer-native": "^2.0.1",
+    "react-timer-mixin": "^0.13.3"
+  }
+}
